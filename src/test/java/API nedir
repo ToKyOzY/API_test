@@ -1,0 +1,23 @@
+   ###  API Nedir  ###
+
+--  ücretsiz api kullanmak için https://collectapi.com/tr/
+
+Api vs we Services
+
+---ikisi de uygulamalar arasında iletişim sağlar arasındaki tek fark:
+  -Web service bu iletişimi internet kullanarak yapar API ise internet olmadan da iletişim sağlayabilir.
+  Not: Tüm web service'ler API dir ama tum API'ler web service değildir.
+
+Http nedir?
+Hyper Text Transfer Protocol
+Http protokolü istemci(PC) ile sunucu (server) arasındaki alışveriş kurallarını belirler.
+
+İstemci sunucuya bir tek istek(request ) gönderir. B istek internet explorer, google chrome gibi web browserlar aracılığıyla iletilir.
+Sunucu bu isteği alır ve APache veyaIIS gibi web sunucu programları aracılığıyla cevap (response) verir.
+
+Client ve Server arasındaki tum iletisim request ve response'lar ile olur.
+
+
+Client   ----> HTTP request  -----> Server
+Client   <---- HTTP response <----- Server
+
