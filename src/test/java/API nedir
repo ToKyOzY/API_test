@@ -21,3 +21,31 @@ Client ve Server arasındaki tum iletisim request ve response'lar ile olur.
 Client   ----> HTTP request  -----> Server
 Client   <---- HTTP response <----- Server
 
+Not: Bütün API bu asıda sorguyu hazırla yolla gelen cevabı anlamlandır
+
+NOT: UI daki gibi kullanıcı adı ve şifre gibi API da da bir güvenlik kontrolü var; ozel kullancıı adı ve şifre istenen alanlara girebilmek için TOKEN almamız gerekir
+
+Status Code
+1** informational codes
+2** success codes
+3** redirect codes (yönlendirme)
+4** client error codes
+5** server error codes
+
+HTTP Methodlarının REST ile kullanımı
+GET: bilgi getirir
+POST: Dİrect kayıt oluşturur
+PUT: Varsa önce bakar update eder yoksa kayıt oluşturur
+PATCH: Var olan nesnenin istediğimiz belirli bilgilerini  değiştirir
+DELETE:
+
+
+API Protokolleri  :  SOAP ve REST
+
+SOAP Api: xml formatı kullanır, güvenlik ve dökümantasyona erişim açısından soap daha avantajlı olsa da esnekliği ve daha düşük data büüklüğü sayesinde REST daha fazla kullanılır.
+REST Api: URI ile tanımlanır. http protokolüyle istek yapılır. böylece işlemler tamamen HTTP metotları üzerinden yapılır.
+REST'in döndürdüğü veri tipinin de xml olması zorunlu değildir JSON, XML, TXT, HTML gibi istenen veri türünde değer döndürür.
+
+
+
+
