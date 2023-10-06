@@ -36,9 +36,10 @@ public class C05_JsonObjeOlusturma {
         requestBody.put("bookingdates",dateJsonObject);
         requestBody.put("totalprice",111);
         requestBody.put("depositpaid",true);
-        requestBody.put("laatname","Brown");
+        requestBody.put("lastname","Brown");
 
 
+        System.out.println(requestBody);
 
     }
 }

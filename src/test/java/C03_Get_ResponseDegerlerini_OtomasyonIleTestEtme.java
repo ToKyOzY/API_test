@@ -3,7 +3,7 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class C03_GetResponseDegerlerini_OtomasyonIleTestEtme {
+public class C03_Get_ResponseDegerlerini_OtomasyonIleTestEtme {
 
     @Test
     public void test02(){

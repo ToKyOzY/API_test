@@ -3,7 +3,7 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class C01_GetRequest_ResponseBodyYazdirma {
+public class C01_Get_Request_ResponseBodyYazdirma {
 
     @Test
     public void get01(){
