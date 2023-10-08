@@ -27,8 +27,8 @@ public class C08_Post_ResponseBodyTesti {
         test edin.
          */
 
-        // 1- End-point ve request body olustur
 
+        // 1- End-point ve request body olustur
 
         String url="https://jsonplaceholder.typicode.com/posts";
 
